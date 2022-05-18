@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x066F0bD213ffC6fce76879760343787C79c8CC6E",
+  "SCAN_LINK": "https://polygonscan.com/address/0x066f0bd213ffc6fce76879760343787c79c8cc6e",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "BOTTFN",
+  "SYMBOL": "BT",
+  "MAX_SUPPLY": 4099,
+  "WEI_COST": 119000000000000000000,
+  "DISPLAY_COST": 119,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/bottfn",
+  "SHOW_BACKGROUND": true
+}
