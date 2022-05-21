@@ -1,24 +1,14 @@
-# Welcome to The Stripes NFT 💎
+# Welcome to BOT TFN 💎
 
-![](https://github.com/The-Stripes-NFT/nft-minting-app/blob/main/logo-blob.png)
+![](https://github.com/MutazAlabdulkarim/BOTTFN/blob/main/public/config/images/logo.png)
 
-All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
-To find out more please visit:
 
-[📺 YouTube](https://www.youtube.com/AliSolanki)
-
-[💬 Telegram](https://t.me/studentsamaj)
-
-[🐦 Twitter](https://twitter.com/thestripesnft)
-
-[ℹ️ Website](https://thestripesnft.com/)
-
-# The Stripes NFT minting dapp 🔥
+# BOT TFN dapp 🔥
 
 This repo provides a nice and easy way for linking an existing NFT smart contract to this minting dapp. There are two ways of using this repo, you can go the simple route or the more complex one.
 
-The simple route is so simple, all you need to do is download the build folder on the release page and change the configuration to fit your needs. (Follow the video for a walk through).
+The simple route is so simple, all you need to do is download the build folder on the release page and change the configuration to fit your needs. 
 
 The more complex route allows you to add additional functionality if you are comfortable with coding in react.js. (Follow the below instructions for a walk through).
 
@@ -27,7 +17,7 @@ The more complex route allows you to add additional functionality if you are com
 If you are cloning the project then run this first, otherwise you can download the source code on the release page and skip this step.
 
 ```sh
-git clone https://github.com/The-Stripes-NFT/nft-minting-app.git
+git clone https://github.com/MutazAlabdulkarim/BOTTFN.git
 ```
 
 Make sure you have node.js installed so you can use npm, then run:
@@ -55,20 +45,20 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
     "SYMBOL": "Matic",
     "ID": 137
   },
-  "NFT_NAME": "The Stripes NFT",
-  "SYMBOL": "TSNFT",
-  "MAX_SUPPLY": 992,
-  "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.075,
+  "NFT_NAME": "BOT TFN",
+  "SYMBOL": "BF",
+  "MAX_SUPPLY": 4099,
+  "WEI_COST": 119000000000000000000,
+  "DISPLAY_COST": 119,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/bottfn",
   "SHOW_BACKGROUND": true
 }
 ```
 
 Make sure you copy the contract ABI from remix and paste it in the `public/config/abi.json` file.
-(follow the youtube video if you struggle with this part).
+
 
 Now you will need to create and change 2 images and a gif in the `public/config/images` folder, `bg.png`, `example.gif` and `logo.png`.
 
@@ -99,8 +89,8 @@ Also remember to update the short_name and name fields in the `public/manifest.j
 
 ```json
 {
-  "short_name": "TSNFT",
-  "name": "The Stripes NFT"
+  "short_name": "BT",
+  "name": "BOT TFN"
 }
 ```
 
